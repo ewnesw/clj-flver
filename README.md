@@ -1,6 +1,6 @@
 # clj-flver
 
-FIXME: description
+ Small clojure app to watch and add to repo/archive config files 
 
 ## Installation
 
