@@ -22,7 +22,8 @@
 (defn it-path
   "iterate and apply add-path"
   [lpaths]
-  (map add-path lpaths))
+  (doseq [lpath lpaths]
+          (add-path lpath)))
 
 (defn -main
   "I don't do a whole lot ... yet."
